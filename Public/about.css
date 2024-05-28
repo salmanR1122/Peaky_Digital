@@ -1,0 +1,1368 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  
+}
+body{
+  background-color: #FEFEFE;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+}
+.nav{
+  float: right;
+  margin-right: 70px;
+  height: auto;
+  padding-right: 30px;
+padding-top: 20px;
+  
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+#item-links{
+  background-color: #2E3234;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown:hover #item-links {
+  background-color: #2E3234;
+  color: #FF4186;
+
+}
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#item-links{
+  color: white;
+  font-weight: 600;
+font-size: 16px;
+}
+#item-links:hover{
+  background-color: #2E3234;
+  color: #FF4186;
+}
+.logo img{
+  height: 60px;
+  width: 50px;
+   
+  }
+  .logo{
+    padding-top: 20px;
+  }
+  
+  .logo span{
+    text-decoration: none;
+  }
+  .navbar{
+    background-color: #2E3234;
+  }
+  .content1{
+    color: #FF4186;
+    font-size: 30px;
+  }
+  .content2{
+    color: white !important;
+    font-size: 30px;
+  }
+  .navbtn{
+    background-color: #FF4186;
+  border: 2px solid #FF4186 ;
+ color: white !important;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right:6px ;
+  color: white;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 10px;
+  }
+  
+  .navbtn:hover{
+    background-color: #00D3DB;
+    border: 2px solid #00D3DB;
+  }
+  .dropdown li a{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+   }
+   .dropdown li a:hover{
+     color: #FF4186;
+ 
+   }
+   .header{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #2E3234;
+    height: 250px;
+    color: white;
+    padding-top: 130px;
+    padding-left: 20px;
+    position: relative;
+   
+  }
+  .headerrow{
+    margin: 0;
+    
+  }
+  .headerrow p{
+    line-height: 2em;
+  }
+  .headerrow a button{
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: #FF4186;
+    color: white;
+    border: 1px solid #FF4186;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 50px 10px 50px;
+  }
+  .header span a{
+    text-decoration: none;
+    color: #FF4186;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .header h1{
+    font-size: 80px;
+    font-weight: 600;
+    padding-top: 10px;
+
+  }
+  .header p{
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .skew-header{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    background-color: #2E3234;
+   
+   bottom: 0;
+   left: 0;
+    z-index: -1;
+    transform: skew(0deg, 3deg) translateY(100px);
+    
+  }
+ .welcome{
+  margin-top: 35%;
+  padding-left: 40px;
+  margin-bottom: 40px;
+
+ }
+ .welcomebody h1{
+   font-size: 70px;
+   font-weight: 600;
+ }
+ .welcomebody p{
+   font-size: 40px;
+ }
+ .Peakystudio{
+  width: 100%;
+  height: 900px;
+  background-color: #FFEAF4;
+  margin-top: -120px;
+  transform: skew(0deg, 3deg) translateY(233px);
+}
+
+.Peakystudio h2{
+  rotate: -2deg;
+  margin-left: 50%;
+ 
+ 
+}
+.peaky-body{
+  margin: 0%;
+  padding: 0%;
+
+}
+.peaky-body h2{
+  margin-top: 70px;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+.peaky-body img{
+ margin-left:110px;
+ 
+}
+.peaky-content{
+  margin: 0%;
+  padding: 0%;
+  
+}
+.peaky-content p{
+  margin: 0%;
+  rotate: -2deg;
+  font-size: 21px;
+  padding-left: 30px;
+  padding-top: 70px;
+  line-height: 1.6em;
+}
+.peaky-content.leftp{
+  line-height: 1.8em;
+}
+.peaky-content a{
+  color: #FF4186;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.peaky-content a:hover{
+  text-decoration: none;
+}
+.Team{
+  width: 100%;
+  height: 900px;
+  background-color: #2E3234;
+  transform: skew(0deg, 3deg) translateY(233px);
+}
+.teambody{
+  margin: 0%;
+  padding: 0%;
+color: white;  
+}
+.teamcontent{
+  rotate: -2deg;
+  margin-top: 90px; 
+  margin-left: 20px; 
+}
+.teamcontent h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+.teamcontent p{
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 1.9em;
+}
+.arrows{
+  margin-top: 170px;
+}
+.arrows svg{
+  float: right;
+  background-color: #00D3DB;
+  color: white;
+  border-radius: 50%;
+  padding: 10px 10px 10px 10px;
+  margin-right: -20px;
+  cursor: pointer;
+  }
+  .arrows svg:hover{
+    background-color: #FF4186;
+    color: white;
+    border: 2px solid #FF4186;
+    cursor: pointer;
+  }
+  .teamimages{
+    margin: 0%;
+    padding: 0%;
+
+  }
+  .teamimages{
+    
+    margin-top: 30px;
+    text-align: center;
+  
+  }
+  .teamimg img{
+    rotate: -2deg;
+    width: 280px;
+    height: 380px;
+  }
+  .teamimg h2{
+    color: #00D3DB;
+  }
+  .teamimg p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .teambutton button{
+    margin-top: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    rotate: -2deg;
+    background-color: #00D3DB;
+    border: 1px solid #00D3DB;
+    padding: 10px 20px 10px 20px;
+  }
+  .teambutton button:hover{
+    background-color: #FF4186;
+    color: white;
+    border: 1px solid #FF4186;
+  
+  }
+  .row{
+    margin: 0%;
+    padding: 0%;
+  }
+ .missionrow{
+   margin-bottom: 50px;
+ }
+  .missionimg{
+    margin-top: 50%;
+    margin-left: 70px;
+  }
+  .missioncontent{
+    margin-top: 70%;
+    
+  }
+  .missioncontent h1{
+    font-size: 70px;
+    line-height: 1.3em;
+    font-weight: 600;
+  }
+  .missioncontent p{
+    font-size: 22px;
+    line-height: 1.6em;
+  }
+
+  .Values{
+    width: 100%;
+    height: 1500px;
+    background-color: #DFF8FD;
+    transform: skew(0deg, -3deg) translateY(80px);
+  }
+  .valuescontent{
+    
+    rotate: 2deg;
+   padding-top: 60px;
+  }
+  .valuescontent h1{
+    font-size: 70px;
+    text-align: center;
+    font-weight: 700;
+  }
+  .valuescontent p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.6em;
+
+  }
+  .values-main{
+    text-align: center;
+  }
+.values-main svg{
+  color: white;
+    background-color: #00D3DB;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px #00D3DB;
+}
+.values-main h2{
+  font-size: 30px;
+ 
+  font-weight: 600;
+}
+.values-main{
+  margin-top: 50px;
+}
+.bitmore{
+  margin-top: 80px;
+}
+.bitmore h1{
+  font-size: 58px;
+  text-align: left;
+}
+.bitmore p{
+  text-align: left;
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.9em;
+}
+.bitmore img{
+  margin-left: 65px;
+}
+
+.brandstory{
+  width: 100%;
+  height: 1000px;
+  background-color: #FFEAF4;
+  transform: skew(0deg, -3deg) translateY(80px);
+}
+.brandstory h1{
+  rotate: 2deg;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 110px;
+}
+.brandstory p{
+  rotate: 2deg;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.9em;
+}
+.brandstory img{
+  margin-top: 59px;
+  margin-left: 50px;
+}
+.brandstory h2{
+  margin-top: 145px;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.black{
+  margin: 0%;
+  padding: 0%;
+}
+.black{
+  margin-top: 40px;
+  background-color: #2E3234 !important;
+  height: 600px;
+  color: white;
+  padding-top: 70px;
+ padding-left: 119px;
+ padding-top: 140px;
+  
+}
+.black p{
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+.black .lname{
+  padding-left: 245px;
+  padding-bottom: 10px;
+}
+.black input{
+  width: 310px;
+  height: 51px;
+  padding-left: 10px;
+  background-color: #2E3234;
+  border: 2px solid white;
+  
+}
+#lastname{
+margin-left: 10px;
+}
+.email1{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+#email1{
+  width: 637px;
+}
+#checkbox2{
+  width: 20px;
+  height: 30px;
+  margin-top: 20px;
+  
+}
+.black span{
+ 
+  margin-left: 10px;
+}
+.lastp{
+  margin-top: 20px;
+}
+.black button{
+  padding: 10px 40px 10px 40px;
+  background-color: #FF4186;
+  color: white;
+  font-size: 16px;
+  font-weight: 550;
+  border: 2px solid #FF4186;
+  float: right;
+  margin-right: 40px;
+}
+.Casestudy p{
+  padding-left: 117px;
+ font-size: 17px;
+ font-weight: 500;
+ line-height: 1.7em;
+  padding-top: 30px;
+}
+.Casestudy h1{
+  padding-left: 117px;
+  font-size: 40px;
+  font-weight: 800;
+ 
+}
+
+.Casestudy button{
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #FF4186;
+  color: white;
+  border: 1px solid #FF4186;
+  padding: 10px 30px 10px 30px ;
+  margin-top: 240px;
+  margin-left: 80px;
+}
+.Casestudy button:hover{
+  background-color: #2E3234;
+  color: white;
+  border: 1px solid #2E3234;
+}
+.Casestudy{
+  margin-bottom: 80px;
+}
+.Dropdownpics{
+  margin: 0%;
+  padding: 0%;
+  margin-top: 90px;
+  padding-left: 40px;
+  
+}
+.Dropdownpics p{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 50px;
+}
+.dropdownrow{
+  margin: 0%;
+  padding: 0%;
+ 
+}
+.dropdownbox{
+  background-color: white;
+  margin-bottom: 30px;
+  position: relative;
+  margin-bottom: 160px;
+  
+}
+.dropdownbox img{
+  height: 674px;
+  width: 622px;
+  
+      
+}
+.contentd{
+  position: absolute;
+  top: 0;
+  margin-top: 50px;
+  margin-left: 40px;
+  
+}
+.contentd h2{
+  color: white;
+  font-weight: 600;
+  margin-left: 30px;
+
+}
+.contentd h2:hover{
+  color: #FF4186;
+  cursor: pointer;
+}
+.contentd P{
+  color: white;
+  line-height: 1.7em;
+  margin-bottom: 0%;
+ margin-left: -90px;
+  margin-bottom: 15px;
+  
+
+}
+.contentd a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+.contentd a:hover{
+  color: #FF4186;
+}
+.dogpic{
+  position: relative;
+  padding-top: 70px;
+  padding-left: 90px;
+
+}
+.top-image{
+ 
+  
+  background-color: #FF4186;
+}
+.card-box{
+  background-color: white;
+  position: absolute;
+  width: 267px;
+  height: 258px;
+  margin-top: -310px;
+  margin-left: 280px;
+  color: black;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 6px;
+  margin-bottom: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.card-box svg{
+  background-color: #00D3DB;
+  border-radius: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  margin-top: -20px;
+  box-shadow: 3px 3px 3px 3px #00D3DB;
+
+}
+.card-box p{
+  padding: 0;
+  margin: 0%;
+  margin-top: 7px;
+  color: #FF4186;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-box span{
+  font-size: 17px;
+}
+.Main-form{
+  width: 100%;
+  height: 900px;
+  background-color: #FF4186;
+  transform: skew(0deg, 3deg) translateY(133px);
+}
+.form-content{
+  rotate: -2deg;
+}
+.form-content h1{
+  font-size:50px;
+  color: white;
+  font-weight: 550;
+  line-height: 1.2em;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.form-row{
+  rotate: -2deg;
+  color: white;
+  margin-top: 40px;
+}
+.form-row p{
+
+  padding: 0%;
+  font-size: 16px;
+  color: white;
+}
+
+.Form{
+padding-top: 10%;
+
+}
+.Form h1{
+margin-bottom: 80px;
+font-size: 53px;
+rotate: 4deg;
+}
+#f1name{
+width: 50%;
+height: 55px;
+background-color: #FF4186;
+border: 2px solid white;
+}
+#l1name{
+width: 40%;
+height: 55px;
+background-color: #FF4186;
+border: 2px solid white;
+}
+
+
+.l1name{
+margin-left: 40%;
+margin-bottom: 20px;
+font-size: 18px;
+font-weight: 600;
+}
+.f1name{
+font-size: 18px;
+font-weight: 600;
+
+}
+.email{
+font-size: 18px;
+margin-bottom: 10px;
+margin-top: 10px;
+font-weight: 600;
+}
+.url{
+font-size: 18px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-weight: 600;
+}
+#email{
+width: 90%;
+height: 55px;
+background-color: #FF4186;
+border: 2px solid white;
+caret-color: black;
+}
+#rl{
+width: 90%;
+height: 55px;
+background-color: #FF4186;
+border: 2px solid white;
+}
+#checkbox{
+width: 30PX;
+height: 20px;
+margin-top: 20px;
+
+}
+form p{
+margin-top: 20px;
+margin-left: 30px;
+color: white;
+font-size: 18px;
+font-weight: 700;
+}
+form a{
+margin-left: 30px;
+}
+.form-row button{
+  margin-top: 0%;
+  padding: 10px 40px 10px 40px;
+  color: white !important;
+font-size: large;
+color: #FF4186 !important;
+border: 1px solid white;
+}
+
+form a button:hover{
+color: white;
+background-color: #2E3234;
+border: 1px solid #2E3234;
+}
+.formc p{
+font-size: 20px;
+font-weight: 500;
+margin-left: 30px;
+line-height: normal;
+}
+.form-content1 p{
+font-size: 20px !important;
+font-weight: 500;
+margin-left: 30px;
+line-height: normal;
+padding-left: 70px;
+}
+
+.companyclients{
+margin-top: 25%;
+margin-bottom: 100px;
+padding-left: 200px;
+}
+.footeerimg{
+  margin-top: 20% !important;
+  background-image: url(images/footerbg.jpg);
+  background-size: cover;
+ background-color: #2E3234;
+ width: 100%;
+ height: 750px;
+ position: relative;
+}
+.footer {
+  padding-top: 10%;
+  
+  
+}
+.footer h2{
+  color: white;
+  font-weight: 500;
+
+}
+.footer p{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.footer #input1{
+  width: 25%;
+  height: 45px;
+  color: white;
+  background-color: #2E3234;
+  border: 1.5px solid white;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 25px;
+}
+.footer #input1:hover{
+  border: none;
+  background-color: #14100F;
+}
+.footer #input2:hover{
+  border: none;
+  background-color: #14100F;
+}
+#input1 {
+  color: white;
+}
+ #input2{
+  width: 25%;
+  height: 45px;
+  background-color: #2E3234;
+  color: white;
+  border: 1.5px solid white;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 25px;
+}
+::placeholder{
+  color: white;
+}
+
+.footerlinks{
+  margin-top: 30px;
+  
+}
+.footerlinks p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #FF4186;
+
+}
+.footerlinks a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footericon h5{
+  float: right;
+  color: #FF4186;
+  margin-top: -60px;
+  margin-right: 210px;
+}
+.footericon span{
+  float: right;
+  margin-right: 25px;
+}
+.footericon svg{
+  color: white;
+  width: 45px;
+  height: 45px;
+  background-color: #14100F;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  padding: 10px 10px 10px 10px;
+}
+.footericon text{
+  float: right;
+  color: white;
+  margin-top: 70px;
+  margin-right: -30%;
+}
+.companyrow{
+  margin: 0;
+  padding: 0;
+}
+.companyrow img{
+  padding-left: 50px;
+  
+}
+.footerlogo img{
+  width: 40px;
+  height: 50px;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .header h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+
+  }
+  .header p{
+   font-size:16px ;
+
+  }
+  .header{
+    height: 800px;
+  }
+  .welcomebody h1{
+    font-size: 30px;
+    margin-top: -50px;
+  }
+  .welcomebody p{
+    font-size: 20px;
+    line-height: 1.8em;
+  }
+  .Peakystudio{
+    width: 100%;
+    height: 1100px;
+    background-color: #FFEAF4;
+    margin-top: -120px;
+    transform: skew(0deg, 3deg) translateY(233px);
+  }
+  
+  
+  .peaky-body{
+    margin: 0%;
+    padding: 0%;
+  
+  }
+  .peakyh{
+    margin-left: -30px !important;
+  
+    font-weight: 800;
+    margin-top: 30px !important;
+    text-align: center;
+    font-size: 20px !important;
+  }
+  
+  .peaky-body img{
+  width: 379px;
+  height: 153px;
+  margin-left: 0px;
+   
+  }
+  .peaky-content p{
+    font-size: 17px;
+  }
+  .Team{
+    width: 100%;
+    height: 2550px;
+  }
+  .teamcontent h1{
+    font-size: 30px;
+  }
+  .teamcontent p{
+    font-size: 19px;
+  }
+  .arrows{
+    margin: 0;
+   
+  }
+  .arrows svg{
+    float: left;
+    background-color: #00D3DB;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    }
+    .teamimages img{
+      width: 463px;
+    }
+    .missionimg img{
+      margin-top: 50px;
+      width: 400px;
+      height: 490px;
+      margin-left: -40px;
+     
+    }
+    .missioncontent h1{
+      font-size: 28px;
+      margin-top: -280px;
+    }
+    .missioncontent p{
+      font-size: 15px;
+    }
+    .valuescontent h1{
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: -30px;
+      margin-left: -40px;
+    }
+    .valuescontent p{
+     font-size: 16px;
+     text-align: justify;
+    }
+    .bitmore h1{
+      margin-left: 2px;
+    }
+    .Values{
+      height: 2150px;
+    }
+    .bitmore img{
+      width: 408px;
+      height: 487px;margin-top: 40px;
+      margin-left: 20px;
+    }
+    .brandstory h1{
+      font-size: 25px;
+      margin-top: 30px;
+    }
+    .brandstory p{
+      font-size: 16px;
+    }
+    .brandstoryimg img{
+     margin-left: 15px;
+      width: 400px;
+      height: 490px;
+    }
+    .brandstoryimg h2{
+      font-size: 30px;
+      margin-top: 15px;
+      margin-left: 10px;
+    }
+    .brandstoryimg p{
+      font-size: 15px !important;
+      margin-top: -20px;
+      margin-left: 20px;
+      rotate: 1deg;
+    }
+    .brandstory{
+      height: 1100px;
+    }
+    .black-box{
+      display: none;
+    }
+    
+    .Casestudy p{
+      margin-left: -90px;
+
+    }
+    .Casestudy h1{
+      margin-left: -90px;
+      font-size: 25px;
+      margin-top: -5px;
+
+    }
+    .Casestudy #sp{
+      margin-top: -15px;
+    }
+    .Casestudy button{
+      margin-top: -10px;
+      margin-top: 40px;
+      margin-left: 25px;
+    }
+    .dropdownbox img{
+      width: 490px;
+      height: 471px;
+      margin-left: -55px;
+    }
+    .card-box{
+      margin-left: 10px;
+      text-align: center;
+      width: 350px;
+      height: 200px;
+     
+    }
+    .contentd {
+     margin-left: -50PX;
+    }
+    .contentd h2{
+      font-size: 25px;
+      margin-top: -10px;
+    }
+    .contentd p{
+      font-size: 15px;
+      margin-top: -20px;
+
+    }
+    .contentd a{
+      margin-left: 25px;
+    }
+    .card-box svg{
+      width: 80px;
+      height: 80px;
+      background-color: #FF4186;
+      color: white;
+      box-shadow: 2px 2px 2px 2px #FF4186;
+      margin-top: -50px;
+    }
+    .card-box p{
+      font-size: 16px;
+      margin-left: 10px;
+    }
+    .card-box span{
+      font-size: 13px;
+
+    }
+    .Main-form{
+      width: 100%;
+      height: 1250px;
+      background-color: #FF4186;
+      transform: skew(0deg, 3deg) translateY(233px);
+    }
+    
+    .form-content h1{
+      font-size:30px;
+      color: white;
+      font-weight: 550;
+      line-height: 1.2em;
+      padding-left: 50px;
+      padding-top: 40px;
+    }
+    
+    
+  .Form{
+    padding-top: 10%;
+    margin-left: 10px;
+    
+  }
+  .Form h1{
+    margin-bottom: 80px;
+    font-size: 53px;
+    rotate: 4deg;
+  }
+  #fname{
+    width: 50%;
+    height: 55px;
+    background-color: #FF4186;
+    border: 2px solid white;
+  }
+  #lname{
+    width: 40%;
+    height: 55px;
+    background-color: #FF4186;
+    border: 2px solid white;
+  }
+  input{
+    border: 3px solid #ccc;
+    outline: none;
+    color: white;
+    
+  }
+  
+  
+  .fname{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    
+  }
+  .form-row p{
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  
+  .email{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .url{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  #email{
+    width: 90%;
+    height: 55px;
+    background-color: #FF4186;
+    border: 2px solid white;
+    caret-color: black;
+  }
+  #rl{
+    width: 90%;
+    height: 55px;
+    background-color: #FF4186;
+    border: 2px solid white;
+  }
+  #checkbox{
+    width: 30PX;
+    height: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  form p{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  form a{
+    margin-left: 30px;
+  }
+ 
+  .form-row button{
+    padding: 10px 40px 10px 40px;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #FF4186 !important;
+    border: 1px solid white;
+  }
+  
+  form a button:hover{
+    color: white;
+    background-color: #2E3234;
+    border: 1px solid #2E3234;
+  }
+  .formc p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+    line-height: normal;
+  }
+  .form-content1 p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 30px;
+    line-height: normal;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .companyclients{
+    margin-top: 55%;
+    margin-bottom: 100px;
+    
+  }
+  .companyclients img{
+    width: 100%;
+    margin-left: -90px;
+  }
+  
+  .footeerimg{
+    margin-top: 10%;
+    background-image: url(images/footerbg.jpg);
+   background-color: #2E3234;
+   width: 100%;
+   height: 800px;
+   position: relative;
+  }
+  .footer {
+    padding-top: 10%;
+    
+  }
+  .footer h2{
+    color: white;
+    font-weight: 500;
+  
+  }
+  .footer p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  
+  }
+  .footer #input1{
+    width: 175px;
+    height: 45px;
+    color: white;
+    background-color: #2E3234;
+    border: 1.5px solid white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 25px;
+  }
+  .footer #input1:hover{
+    border: none;
+    background-color: #14100F;
+  }
+  .footer #input2:hover{
+    border: none;
+    background-color: #14100F;
+  }
+  #input1 {
+    color: white;
+    
+  }
+   #input2{
+    width: 175px;
+    height: 45px;
+    background-color: #2E3234;
+    color: white;
+    border: 1.5px solid white;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 9px;
+    padding-left: 25px;
+  }
+  ::placeholder{
+    color: white;
+  }
+  footer button{
+    padding: 10px 150px 10px 150px !important;
+    color: #FF4186;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid white;
+  }
+  .footerlinks{
+    margin-top: 30px;
+    
+  }
+  .legal{
+    margin-left: 190px;
+    margin-top: -170px;
+  }
+  .footerlinks p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FF4186;
+  
+  }
+  .footerlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .footericon h5{
+    float: right;
+    color: #FF4186;
+    margin-top: -60px;
+    margin-right: 210px;
+  }
+  .footericon span{
+   float: left;
+    margin-left: -59px;
+  }
+  .downfooter{
+    margin-top: 40px;
+  }
+  .footericon h5{
+    margin-top: 30px;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .footericon svg{
+    color: white;
+    width: 45px;
+    height: 45px;
+    background-color: #14100F;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    float: left;
+    margin-top: 80px;
+    margin-left: -200px;
+    
+  }
+  .footericon text{
+    float: left;
+    color: white;
+    margin-top: 160px;
+    margin-left: -200px;
+   
+  }
+  }
